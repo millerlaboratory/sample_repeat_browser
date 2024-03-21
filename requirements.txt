@@ -4,3 +4,4 @@ seaborn
 shiny
 plotly.express
 shinywidgets
+numpy
