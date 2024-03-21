@@ -1,0 +1,6 @@
+pathlib
+pandas
+seaborn
+shiny
+plotly.express
+shinywidgets
