@@ -6,6 +6,7 @@ from shiny.express import input, ui
 import matplotlib.pyplot as plt
 import plotly.express as px
 from shinywidgets import render_widget
+import numpy as np
 
 sns.set_theme(style="white")
 df = pd.read_csv(Path(__file__).parent / "data" /"first_100_str_data_count.tsv", sep='\t')
