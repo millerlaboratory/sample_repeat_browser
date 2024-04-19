@@ -29,6 +29,8 @@ with ui.sidebar():
     )
     ui.input_slider("bin_number", "Binwidth", min=1, max=50, value=1, step=1)
 
+    "This app was built from data made avaible by the 1000 Genomes ONT Sequencing Consortium. Genontype data was generated using Vamos (Ren et al., 2023) and repeat locus metadata was sourced from the STRChive (https://strchive.org/index)"
+
 
 with ui.layout_columns(fill=False):
 
